@@ -134,7 +134,9 @@ from collections import Counter
 skills = [ 'JavaScript','Python','Typescript','Haskell','C','C++','Java','HTML','C#','SQL','Rust','Go','Lua','PHP','React','Angular','Ruby','R','Shell','Scala','Nix','Swift','Clojure',"Elixir","Perl","Kotlin","Dart","Erlang","F#","Visual Basic .NET","Julia","Assembly","WebAssembly","Fortran","Objective-C","Groovy","SystemVerilog","DM","PowerShell","CodeQL","Emacs Lisp"]
 bounties = [ 'JavaScript','Python','Typescript','Haskell','C','C++','Java','HTML','C#','SQL','Rust','Go','Lua','PHP','React','Angular','Ruby','R','Shell','Scala','Nix','Swift','Clojure',"Elixir","Perl","Kotlin","Dart","Erlang","F#","Visual Basic .NET","Julia","Assembly","WebAssembly","Fortran","Objective-C","Groovy","SystemVerilog","DM","PowerShell","CodeQL","Emacs Lisp"]
 
-# count word occurrences
+
+
+# Template to count word occurrences
 skills_vals = Counter(skills)
 bounties_vals = Counter(bounties)
 
