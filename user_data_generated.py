@@ -115,7 +115,7 @@ def generate_user_data(num_users):
                           'Swift' : num_work, 'Clojure': num_skills,"Elixir": num_program,"Perl": num_work,"Kotlin": num_skills,"Dart": num_program,
                           "Erlang": num_work, "F#": num_skills,"Visual Basic .NET": num_program,"Julia": num_skills,"Assembly": num_work,"WebAssembly": num_skills,
                           "Fortran": num_work,"Objective-C": num_skills,"Groovy": num_work,"SystemVerilog": num_program,"DM": num_skills,
-                          "PowerShell": num_work,"CodeQL": num_program,"Emacs Lisp": num_skills, 'experience':(num_work*2+num_skills*2+2*num_program+2*num_work), 'skills': user_skills,
+                          "PowerShell": num_work,"CodeQL": num_program,"Emacs Lisp": num_skills, 'experience':(num_work+num_skills+num_program+num_work), 'skills': user_skills,
                           'skills_cosine_similarity': cosine, 'bounties_cosine_similarity' : cosine})
     return user_data
 
